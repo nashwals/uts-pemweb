@@ -41,8 +41,8 @@ body {
 }
 
 .active {
-    background-color: darkred !important;
-    color: antiquewhite !important;
+    background-color: antiquewhite !important;
+    color: darkred !important;
 }
 
 .sidebar {
