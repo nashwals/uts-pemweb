@@ -44,7 +44,8 @@
 }
 
 .form2 form {
-    padding-left: auto;
+    padding-left: 100px;
+    padding-right: 100px;
     font-size: 19px;
 }
 
