@@ -1,0 +1,73 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header23 {
+    background-color: darkred;
+}
+
+.htitle23 {
+    color: whitesmoke;
+}
+
+.skn-finger {
+    padding-left: 105px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 100px;
+}
+
+.active {
+    background-color: gray !important;
+}
+
+.sidebar {
+    position: absolute;
+    padding: 16px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.form-title {
+    margin-top: 110px;
+}
+
+.form2 {
+    margin-bottom: 100px;
+}
+
+.form2 form {
+    padding-left: auto;
+    font-size: 19px;
+}
+
+.form2 yesno {
+    font-size: 16px;
+}
+
+.table-title {
+    margin-top: 120px;
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.table-wrapper {
+    max-height: 750px;
+    overflow-y: auto;
+    margin-bottom: 70px;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: darkred;
+    color: white;
+}

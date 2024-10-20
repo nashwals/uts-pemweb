@@ -1,0 +1,78 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite !important;
+}
+
+.header1 {
+    background-color: white;
+    border-bottom: 5px solid darkred;
+}
+
+.htitle1 {
+    color: darkred;
+}
+
+.skn-finger {
+    padding-left: 105px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 100px;
+}
+
+.banner {
+    height: 1050px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sukuna-cover.webp);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.banner-content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: darkred !important;
+    color: antiquewhite !important;
+}
+
+.sidebar {
+    position: absolute;
+    margin-top: 100px;
+    padding: 16px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.desc {
+    margin-bottom: 250px;
+    border: 7px double darkred;
+    font-size: 21px;
+    padding: 100px;
+}
+
+.profile img {
+    border: 2px solid darkred;
+    margin-bottom: 100px;
+}
+
+.desc p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer {
+    border-top: 1px solid darkgray;
+}
