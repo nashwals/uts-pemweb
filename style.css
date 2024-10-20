@@ -27,7 +27,7 @@
 .sidebar {
     position: absolute;
     padding: 16px;
-    background: transparent;
+    background: white;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -39,7 +39,6 @@
 }
 
 .form2 {
-    margin-left: 160px;
     margin-bottom: 100px;
 }
 
